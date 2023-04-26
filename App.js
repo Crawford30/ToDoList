@@ -10,7 +10,8 @@ export default function App() {
 
         <View style={styles.items}>
           {/* This is where the task will go */}
-          <Task />
+          <Task text="First component" />
+          <Task text="Second component" />
         </View>
       </View>
 
@@ -34,6 +35,7 @@ const styles = StyleSheet.create({
 
   },
   items: {
+    marginTop: 30,
 
   },
 });
